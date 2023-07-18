@@ -61,9 +61,12 @@ export default function LoginPage() {
             onChange={onChangeHandler}
           />
         </div>
+        <div>
+        <Link href="/forgot" className="underline">forgot password</Link>
+        </div>
         <button
           type="submit"
-          className="border border-white rounded-md p-[0.5rem] mt-[1.5rem] bg-[#a82723] hover:bg-[#b92b27] cursor-pointer"
+          className="border border-white rounded-md p-[0.5rem] mt-[0.7rem] bg-[#a82723] hover:bg-[#b92b27] cursor-pointer"
         >
           Login
         </button>
